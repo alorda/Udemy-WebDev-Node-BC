@@ -1,0 +1,49 @@
+/*
+#00C8F8
+#59C4C5
+#FFC33C
+#FBE2B4
+#FF4C65
+#E0E0E0
+font-family: 'Roboto Slab', serif;
+*/
+
+
+body {
+  /*border: 10px solid #FF4C65;*/
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  background-color: #E0E0E0;
+}
+
+.blog-date {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #00C8F8;
+  font-size: 1.15em;
+}
+
+.blog-title {
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+p:first-of-type {
+  border-left: solid 10px #FF4C65;
+  padding-left: 10px;
+}
+
+p:last-of-type:after {
+}
+
+hr.end-of-blog {
+  background-color: #FFC33C;
+  height: 2px;
+  border: none;
+  width: 50%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
