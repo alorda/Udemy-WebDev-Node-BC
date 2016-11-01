@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jona Form Exercise</title>
+</head>
+<body>
+
+  <h1>Register Now!</h1>
+
+  <form>
+    <div>
+      <label for="firstName">First Name: </label>
+      <input type="text" name="firstName" id="firstName" required>
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" id="lastName" required>
+    </div>
+
+    <div>
+      <label for="male">Male</label>
+      <input name="gender" id="male"type="radio" value="male">
+      <label for="female">Female</label>
+      <input name="gender" id="female"type="radio" value="female">
+      <label for="other">Other</label>
+      <input name="gender" id="other"type="radio" value="other">
+    </div>
+
+    <div>
+      <label for="username">Email: </label>
+      <input type="email" id="username" name="username" placeholder="email@domain.com" required>
+
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" minlength="5" maxlength="10" placeholder="Password" required>
+    </div>
+
+    <div>
+      <label for="monthOfBirth">Birthday: </label>
+        <select name="monthOfBirth" id="monthOfBirth" title="Month" required>
+          <option value="0" selected disabled>Month</option>
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+        </select>
+        <select name="dayOfBirth" id="dayOfBirth" title="Day" required>
+          <option value="0" selected disabled>Day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <select name="yearOfBirth" id="yearOfBirth" title="Year" required>
+          <option value="0" selected disabled>Year</option>
+          <option value="1984">1984</option>
+          <option value="1985">1985</option>
+          <option value="1986">1986</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="termsAgreement">I agree to the terms and conditions: </label>
+        <input type="checkbox" name="termsAgreement" id="termsAgreement" required>
+      </div>
+
+      <div>
+        <input type="submit" value"Submit">
+      </div>
+  </form>
+
+</body>
+</html>
