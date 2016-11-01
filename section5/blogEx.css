@@ -36,9 +36,6 @@ p:first-of-type {
   padding-left: 10px;
 }
 
-p:last-of-type:after {
-}
-
 hr.end-of-blog {
   background-color: #FFC33C;
   height: 2px;
