@@ -12,7 +12,8 @@ font-family: 'Roboto Slab', serif;
 body {
   /*border: 10px solid #FF4C65;*/
   margin: 0 auto;
-  width: 60%;
+  max-width: 700px;
+  width: 90%;
   padding: 10px;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
