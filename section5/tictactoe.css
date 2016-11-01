@@ -1,0 +1,43 @@
+body {
+  background: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+td:hover {
+  background-color: yellow;
+}
+
+.bottom-border {
+  border-bottom: 2px solid white;
+}
+
+.right-border {
+  border-right: 2px solid white;
+}
+
+.left-border {
+  border-left: 2px solid white;
+}
+
+.top-border {
+  border-top: 2px solid white;
+}
+
+.all-border {
+  border: 2px solid white;
+}
