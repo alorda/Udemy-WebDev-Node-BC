@@ -22,14 +22,18 @@ body {
 
 .blog-date {
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: .2rem;
   color: #00C8F8;
-  font-size: 1.15em;
+  font-size: 1.15rem;
 }
 
 .blog-title {
   text-transform: capitalize;
-  font-size: 2em;
+  font-size: 2rem;
+}
+
+.post {
+  font-size: 1rem;
 }
 
 p:first-of-type {
