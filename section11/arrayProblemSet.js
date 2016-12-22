@@ -16,6 +16,7 @@ printReverse(arrayOfIntegers);
 
 function isUniform(array) {
     var baseline = array[0];
+    // DON'T USE A FOR EACH!
     // array.forEach(function(element) {
     //     if (element === baseline) {
     //         console.log(element + " equals the baseline: " + baseline);
