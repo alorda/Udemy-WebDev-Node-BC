@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Circles</title>
+    <script type="text/javascript" src="paper-full.js"></script>
+    <link rel="stylesheet" type="text/css" href="circles.css">
+    <script type="text/paperscript" canvas="myCanvas">
+
+        // var myCircle = new Path.Circle(new Point(5, 15), 5);
+        // myCircle.fillColor = '#AA3939';
+        // var circle2 = new Path.Circle(new Point(centerX, centerY), rad);
+        // circle2.fillColor = 'yellow';
+
+        // I need a function that creates circles.
+        // Creates circles horizontally and vertically every 100px
+
+
+        function circleMaker() {
+            function radRandomizer(min, max) {
+                return Math.random() * (max-min) + min;
+            };
+
+            var centerY = 35;
+            while (centerY < 1000) {
+                var centerX = 35;
+
+                for (var i = 0; i < 10; i++) {
+                    // var rad = 15;
+                    var rad = radRandomizer(7, 35);
+                    var aCircle = new Path.Circle(new Point(centerX, centerY), rad);
+                    aCircle.fillColor = 'pink';
+
+                    centerX += 100;
+                    console.log('aCircle: ' + i, aCircle);
+                    console.log('aCircle._id: ', aCircle._id)
+                };
+                centerY += 100;
+            };
+        };
+        circleMaker();
+    </script>
+</head>
+
+<body>
+    <canvas id="myCanvas" resize></canvas>
+</body>
+
+</html>
